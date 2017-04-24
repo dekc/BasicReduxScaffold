@@ -1,9 +1,9 @@
 {
-  "name": "redux-simple-starter",
+  "name": "redux-basic-scaffold",
   "version": "1.0.0",
-  "description": "Basic starter "git@github.com:dekc/BasicReduxScaffold.git" for Redux with React and Babel support",
+  "description": "Basic starter for Redux with React and Babel support",
   "main": "index.js",
-  "repository": "git@github.com:dekc/BasicReduxScaffold.git",
+  "repository": "git@github.com:qa4dekc/BasicReduxScaffold.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "startdash": "webpack-dashboard -t 'React-Redux Boilerplate' -- webpack-dev-server --colors --no-info",
@@ -35,6 +35,7 @@
     "react-dom": "^0.14.3",
     "react-redux": "4.0.0",
     "react-router": "^2.0.1",
+    "react-transition-group": "^1.1.2",
     "redux": "^3.0.4"
   }
 }
